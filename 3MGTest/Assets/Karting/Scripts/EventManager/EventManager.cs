@@ -18,7 +18,7 @@ using UnityEngine;
 
 #if UNITY_EDITOR
             Debug.LogError(" TrackEvent << EVENT >> : " + sEvent);
-         //   return;
+            return;
 #endif
            
             if (IsTreckGoogleAnalyticsEvent)
