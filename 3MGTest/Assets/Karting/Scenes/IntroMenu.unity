@@ -456,7 +456,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 0, y: 25}
-  m_SizeDelta: {x: 380, y: 70}
+  m_SizeDelta: {x: 280, y: 80}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &129299356
 MonoBehaviour:
@@ -3115,7 +3115,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1834908383
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3389,7 +3389,6 @@ MonoBehaviour:
   defaultSelection: {fileID: 129299356}
   shopButton: {fileID: 1705505866}
   mStoreScreen: {fileID: 666365509}
-  skinnedMeshRenderer: {fileID: 1791285397}
 --- !u!1 &1911890558
 GameObject:
   m_ObjectHideFlags: 0
@@ -3565,7 +3564,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1947208092
 RectTransform:
   m_ObjectHideFlags: 0
