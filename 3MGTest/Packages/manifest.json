@@ -12,6 +12,7 @@
     "com.unity.learn.iet-framework": "3.1.1",
     "com.unity.ml-agents": "2.0.1",
     "com.unity.probuilder": "5.2.0",
+    "com.unity.remote-config": "3.3.2",
     "com.unity.render-pipelines.universal": "12.1.13",
     "com.unity.test-framework": "1.1.33",
     "com.unity.textmeshpro": "3.0.6",

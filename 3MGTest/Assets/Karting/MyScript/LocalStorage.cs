@@ -1,6 +1,25 @@
 using UnityEngine;
 public class LocalStorage
 {
+
+    public static bool isEventEnable
+    {
+        get
+        {
+            string sKey = "seasonal_event";
+            if (!MyPlayerPrefs.HasKey(sKey))
+            {
+                MyPlayerPrefs.SetBool(sKey, false);
+            }
+            return MyPlayerPrefs.GetBool(sKey);
+        }
+        set
+        {
+            string sKey = "seasonal_event";
+            MyPlayerPrefs.SetBool(sKey, value);
+        }
+    }
+
     public static string KartColor
     {
         get

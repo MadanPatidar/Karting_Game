@@ -16,13 +16,37 @@
             "id": "id_003",
             "nm": "Blue",
             "clr": "0000FF",
-            "pr": 500
+            "pr": 100
         },
         {
             "id": "id_004",
             "nm": "Yellow",
             "clr": "FFFF00",
-            "pr": 10000
+            "pr": 200
+        },
+        {
+            "id": "id_005",
+            "nm": "White",
+            "clr": "FFFFFF",
+            "pr": 500
+        },
+        {
+            "id": "id_006",
+            "nm": "Purple",
+            "clr": "800080",
+            "pr": 1000
+        },
+        {
+            "id": "id_007",
+            "nm": "Cyan",
+            "clr": "00FFFF",
+            "pr": 1700
+        },
+        {
+            "id": "id_008",
+            "nm": "Navy",
+            "clr": "000080",
+            "pr": 3000
         }
     ]
 }

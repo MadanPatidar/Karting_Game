@@ -100,7 +100,19 @@ public class Item : BaseModel
 			return GetString(Schema.Item.Color);
 		}
 	}
-	public int Price
+
+	public int CurrentPrice
+	{
+		get
+		{
+			if (LocalStorage.MyPlayerPrefs.HasKey("prive_" + Id))
+				return LocalStorage.MyPlayerPrefs.GetInt("prive_" + Id);
+			else
+				return DefaultPrice;
+		}
+	}
+
+	public int DefaultPrice
 	{
 		get
 		{

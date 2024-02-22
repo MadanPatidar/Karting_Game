@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 469c24fdb3bd6431b92cc1465bd9166b, type: 3}
+  m_Name: RemoteConfigDataStoreAsset
+  m_EditorClassIdentifier: 
+  _rsKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"10a884ff-e6aa-4e25-82c1-50a3817c6a1e\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"GoldRushEvent\",\r\n      \"type\": \"bool\",\r\n     
+    \"value\": true\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
+    \"2edd4f49-c90a-4786-9e25-e5f145add553\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"key\": \"id_001\",\r\n      \"type\": \"int\",\r\n      \"value\": 0\r\n   
+    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"7d558615-20af-4c6d-84de-35a5b2c598ea\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"id_002\",\r\n      \"type\": \"int\",\r\n     
+    \"value\": 50\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
+    \"c6cb8e84-ae7b-47ed-9a10-3dbaadb52c7e\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"key\": \"id_003\",\r\n      \"type\": \"int\",\r\n      \"value\": 100\r\n   
+    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"44884fad-16d2-4c45-9621-8f06f4d55bbc\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"id_004\",\r\n      \"type\": \"int\",\r\n     
+    \"value\": 200\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
+    \"460f8863-1765-4507-a377-1800d4d41586\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"key\": \"id_005\",\r\n      \"type\": \"int\",\r\n      \"value\": 500\r\n   
+    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"0b1d059f-e048-40e4-a08b-bf2146897473\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"id_006\",\r\n      \"type\": \"int\",\r\n     
+    \"value\": 1000\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
+    \"efbfdf07-055b-47be-9797-91c47c83ffff\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"key\": \"id_007\",\r\n      \"type\": \"int\",\r\n      \"value\": 1700\r\n   
+    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"34a7ae90-f923-4528-9511-a6a44caed999\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"id_008\",\r\n      \"type\": \"int\",\r\n     
+    \"value\": 3000\r\n    }\r\n  }\r\n]"
+  _rsLastCachedKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"10a884ff-e6aa-4e25-82c1-50a3817c6a1e\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"GoldRushEvent\",\r\n      \"type\": \"bool\",\r\n     
+    \"value\": true\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
+    \"2edd4f49-c90a-4786-9e25-e5f145add553\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"key\": \"id_001\",\r\n      \"type\": \"int\",\r\n      \"value\": 0\r\n   
+    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"7d558615-20af-4c6d-84de-35a5b2c598ea\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"id_002\",\r\n      \"type\": \"int\",\r\n     
+    \"value\": 50\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
+    \"c6cb8e84-ae7b-47ed-9a10-3dbaadb52c7e\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"key\": \"id_003\",\r\n      \"type\": \"int\",\r\n      \"value\": 100\r\n   
+    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"44884fad-16d2-4c45-9621-8f06f4d55bbc\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"id_004\",\r\n      \"type\": \"int\",\r\n     
+    \"value\": 200\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
+    \"460f8863-1765-4507-a377-1800d4d41586\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"key\": \"id_005\",\r\n      \"type\": \"int\",\r\n      \"value\": 500\r\n   
+    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"0b1d059f-e048-40e4-a08b-bf2146897473\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"id_006\",\r\n      \"type\": \"int\",\r\n     
+    \"value\": 1000\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
+    \"efbfdf07-055b-47be-9797-91c47c83ffff\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"key\": \"id_007\",\r\n      \"type\": \"int\",\r\n      \"value\": 1700\r\n   
+    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"34a7ae90-f923-4528-9511-a6a44caed999\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"id_008\",\r\n      \"type\": \"int\",\r\n     
+    \"value\": 3000\r\n    }\r\n  }\r\n]"
+  _environments: "[\r\n  {\r\n    \"projectId\": \"ba3f1b3a-1ba7-41bb-a972-c17360434f1d\",\r\n   
+    \"name\": \"production\",\r\n    \"id\": \"79a163b8-b5ff-4d17-b98d-aaca658fd171\",\r\n   
+    \"isDefault\": true,\r\n    \"createdAt\": \"2024-02-22T13:44:40Z\",\r\n    \"updatedAt\":
+    \"2024-02-22T13:44:40Z\"\r\n  },\r\n  {\r\n    \"projectId\": \"ba3f1b3a-1ba7-41bb-a972-c17360434f1d\",\r\n   
+    \"name\": \"dev\",\r\n    \"id\": \"0efda657-2eea-4c8f-9386-296e8718d269\",\r\n   
+    \"isDefault\": false,\r\n    \"createdAt\": \"2024-02-22T15:25:24Z\",\r\n   
+    \"updatedAt\": \"2024-02-22T15:25:24Z\"\r\n  }\r\n]"

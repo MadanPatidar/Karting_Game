@@ -29,7 +29,7 @@ public class StoreItemScript : MonoBehaviour
         item = _item;
         this.itemTapCallBack = _itemTapCallBack;
         txtName.text = item.Name;
-        txtPrice.text = item.Price + " Coins";
+        txtPrice.text = item.CurrentPrice + " Coins";
 
         imageColor.color = Util.GetColorByCode(item.Color);
 
@@ -55,9 +55,9 @@ public class StoreItemScript : MonoBehaviour
     {
         if (!item.IsUnLock)
         {
-            if (LocalStorage.Coins >= item.Price)
+            if (LocalStorage.Coins >= item.CurrentPrice)
             {
-                LocalStorage.Coins -= item.Price;
+                LocalStorage.Coins -= item.CurrentPrice;
                 item.IsUnLock = true;  
                 imgLock.gameObject.SetActive(!item.IsUnLock);
             }
