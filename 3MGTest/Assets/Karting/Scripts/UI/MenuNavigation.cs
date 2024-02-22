@@ -5,12 +5,19 @@ using UnityEngine.UI;
 public class MenuNavigation : MonoBehaviour
 {
     public Selectable defaultSelection;
-
+    public Button shopButton;
+    public GameObject mStoreScreen;
     void Start()
     {
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
         EventSystem.current.SetSelectedGameObject(null);
+        shopButton.onClick.AddListener(ShopButtonOnTap);
+    }
+
+    void ShopButtonOnTap()
+    {
+        mStoreScreen.SetActive(true);       
     }
 
     void LateUpdate()

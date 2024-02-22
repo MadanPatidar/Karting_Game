@@ -21,9 +21,9 @@ public class GameWinRewards : MonoBehaviour
 
     void Start()
     {
-        txtCoinCount.text = "" + Util.Coins;
+        txtCoinCount.text = "" + LocalStorage.Coins;
         StartCoroutine(Rewards());
-    }
+    }    
 
     IEnumerator Rewards()
     {
@@ -37,8 +37,8 @@ public class GameWinRewards : MonoBehaviour
             mRewardObject.transform.DOScale(new Vector3(0, 0, 0), 1).OnComplete(() => {
 
                 mRewardObject.SetActive(false);
-                Util.Coins += iReward;
-                txtCoinCount.text = "" + Util.Coins;
+                LocalStorage.Coins += iReward;
+                txtCoinCount.text = "" + LocalStorage.Coins;
 
             });
 

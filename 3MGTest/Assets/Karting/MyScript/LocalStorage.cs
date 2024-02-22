@@ -1,21 +1,40 @@
 using UnityEngine;
-public class Util
+public class LocalStorage
 {
+    public static string KartColor
+    {
+        get
+        {
+            string sKey = "kart_color";
+            if (!MyPlayerPrefs.HasKey(sKey))
+            {
+                MyPlayerPrefs.SetString(sKey, "FF0000");
+            }
+            return MyPlayerPrefs.GetString(sKey);
+        }
+        set
+        {
+            string sKey = "kart_color";
+            MyPlayerPrefs.SetString(sKey, value);
+        }
+    }
+
+
     public static int Coins
     {
         get
         {
             string sKey = "coins";
-            return LocalStorage.GetInt(sKey);
+            return MyPlayerPrefs.GetInt(sKey);
         }
         set
         {
             string sKey = "coins";
-            LocalStorage.SetInt(sKey, value);
+            MyPlayerPrefs.SetInt(sKey, value);
         }
     }
 
-    public  class LocalStorage
+    public  class MyPlayerPrefs
     {
         public static bool HasKey(string sKey)
         {
