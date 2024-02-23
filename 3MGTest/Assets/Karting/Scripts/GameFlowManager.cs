@@ -160,6 +160,8 @@ public class GameFlowManager : MonoBehaviour
         endGameFadeCanvasGroup.gameObject.SetActive(true);
         if (win)
         {
+            EventManager.Instance.TrackEvent("win");
+
             m_SceneToLoad = winSceneName;
             m_TimeLoadEndGameScene = Time.time + endSceneLoadDelay + delayBeforeFadeToBlack;
 
@@ -176,6 +178,8 @@ public class GameFlowManager : MonoBehaviour
         }
         else
         {
+            EventManager.Instance.TrackEvent("lose");
+
             m_SceneToLoad = loseSceneName;
             m_TimeLoadEndGameScene = Time.time + endSceneLoadDelay + delayBeforeFadeToBlack;
 

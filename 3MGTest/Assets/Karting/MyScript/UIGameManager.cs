@@ -19,6 +19,8 @@ public class UIGameManager : MonoBehaviour
 
     void PauseButtonOnTap()
     {
+        EventManager.Instance.TrackEvent("pauseTap");
+
         pauseScreen.gameObject.SetActive(true);
         Time.timeScale = 0f;
         AudioUtility.SetMasterVolume(volumeWhenMenuOpen);

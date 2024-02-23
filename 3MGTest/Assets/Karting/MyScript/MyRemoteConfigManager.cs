@@ -3,9 +3,12 @@ using Unity.Services.RemoteConfig;
 using Unity.Services.Authentication;
 using Unity.Services.Core;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MyRemoteConfigManager : MonoBehaviour
 {
+    public string SceneName;
+
     public struct userAttributes { }
     public struct appAttributes { }
 
@@ -19,7 +22,19 @@ public class MyRemoteConfigManager : MonoBehaviour
         }
     }
 
-    async Task Start()
+    void Start()
+    {
+        Debug.Log("CallFetchConfig");
+        Invoke("CallFetchConfig", 1f);
+    }
+
+    void CallFetchConfig()
+    {
+        var task = FetchConfig();
+        Debug.Log("task : " + task);
+    }
+
+    async Task FetchConfig()
     {
         if (Utilities.CheckForInternetConnection())
         {
@@ -51,6 +66,8 @@ public class MyRemoteConfigManager : MonoBehaviour
                 SetStoreItemPrice();
                 break;
         }
+
+        LoadTargetScene();
     }
 
     void SetEventSettings()
@@ -62,7 +79,12 @@ public class MyRemoteConfigManager : MonoBehaviour
     {
         foreach (Item item in StoreManager.AllItems)
         {
-            LocalStorage.MyPlayerPrefs.SetInt("prive_"+item.Id, RemoteConfigService.Instance.appConfig.GetInt(item.Id, item.DefaultPrice));
+            LocalStorage.MyPlayerPrefs.SetInt("prive_" + item.Id, RemoteConfigService.Instance.appConfig.GetInt(item.Id, item.DefaultPrice));
         }
+    }
+
+    void LoadTargetScene()
+    {
+        SceneManager.LoadSceneAsync(SceneName);
     }
 }

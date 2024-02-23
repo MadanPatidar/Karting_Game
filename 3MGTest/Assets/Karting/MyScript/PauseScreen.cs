@@ -16,6 +16,8 @@ public class PauseScreen : MonoBehaviour
 
     void MenuButtonOnTap()
     {
+        EventManager.Instance.TrackEvent("menuTap");
+
         Time.timeScale = 1f;
         AudioUtility.SetMasterVolume(1);
         SceneManager.LoadSceneAsync(SceneName);
@@ -24,6 +26,8 @@ public class PauseScreen : MonoBehaviour
 
     void ResumeButtonOnTap()
     {
+        EventManager.Instance.TrackEvent("resumeTap");
+
         Time.timeScale = 1f;
         AudioUtility.SetMasterVolume(1);
         gameObject.SetActive(false);

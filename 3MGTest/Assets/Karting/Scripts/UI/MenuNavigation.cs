@@ -17,6 +17,7 @@ public class MenuNavigation : MonoBehaviour
 
     void ShopButtonOnTap()
     {
+        EventManager.Instance.TrackEvent("shop");
         mStoreScreen.SetActive(true);       
     }
 

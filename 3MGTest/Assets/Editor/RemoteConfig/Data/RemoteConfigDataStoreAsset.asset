@@ -12,52 +12,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 469c24fdb3bd6431b92cc1465bd9166b, type: 3}
   m_Name: RemoteConfigDataStoreAsset
   m_EditorClassIdentifier: 
-  _rsKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"10a884ff-e6aa-4e25-82c1-50a3817c6a1e\"\r\n   
+  _rsKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"0a9b179c-247b-44d1-a683-0a92e7ba107f\"\r\n   
     },\r\n    \"rs\": {\r\n      \"key\": \"GoldRushEvent\",\r\n      \"type\": \"bool\",\r\n     
     \"value\": true\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
-    \"2edd4f49-c90a-4786-9e25-e5f145add553\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"9f37f1f0-400e-4e3b-af4b-1a1821bcdebc\"\r\n    },\r\n    \"rs\": {\r\n     
     \"key\": \"id_001\",\r\n      \"type\": \"int\",\r\n      \"value\": 0\r\n   
-    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"7d558615-20af-4c6d-84de-35a5b2c598ea\"\r\n   
+    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"dfe57c67-33a6-4af7-8c37-ecdd041ce347\"\r\n   
     },\r\n    \"rs\": {\r\n      \"key\": \"id_002\",\r\n      \"type\": \"int\",\r\n     
     \"value\": 50\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
-    \"c6cb8e84-ae7b-47ed-9a10-3dbaadb52c7e\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"39819f57-a763-416b-ac5f-96be2bac6412\"\r\n    },\r\n    \"rs\": {\r\n     
     \"key\": \"id_003\",\r\n      \"type\": \"int\",\r\n      \"value\": 100\r\n   
-    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"44884fad-16d2-4c45-9621-8f06f4d55bbc\"\r\n   
+    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"00daba03-205e-4df9-be7e-25fd69d2b25b\"\r\n   
     },\r\n    \"rs\": {\r\n      \"key\": \"id_004\",\r\n      \"type\": \"int\",\r\n     
     \"value\": 200\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
-    \"460f8863-1765-4507-a377-1800d4d41586\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"a3e4cabc-6b8a-4344-ad40-2e97d4bdf7bc\"\r\n    },\r\n    \"rs\": {\r\n     
     \"key\": \"id_005\",\r\n      \"type\": \"int\",\r\n      \"value\": 500\r\n   
-    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"0b1d059f-e048-40e4-a08b-bf2146897473\"\r\n   
+    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"6d059a1f-9aaa-448e-8d47-1ac9090ab05a\"\r\n   
     },\r\n    \"rs\": {\r\n      \"key\": \"id_006\",\r\n      \"type\": \"int\",\r\n     
     \"value\": 1000\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
-    \"efbfdf07-055b-47be-9797-91c47c83ffff\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"444d6315-a36f-4488-bc47-62e774e40e95\"\r\n    },\r\n    \"rs\": {\r\n     
     \"key\": \"id_007\",\r\n      \"type\": \"int\",\r\n      \"value\": 1700\r\n   
-    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"34a7ae90-f923-4528-9511-a6a44caed999\"\r\n   
+    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"6807c865-f66e-43a5-b905-8e259a8e1bfb\"\r\n   
     },\r\n    \"rs\": {\r\n      \"key\": \"id_008\",\r\n      \"type\": \"int\",\r\n     
-    \"value\": 3000\r\n    }\r\n  }\r\n]"
-  _rsLastCachedKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"10a884ff-e6aa-4e25-82c1-50a3817c6a1e\"\r\n   
+    \"value\": 2500\r\n    }\r\n  }\r\n]"
+  _rsLastCachedKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"0a9b179c-247b-44d1-a683-0a92e7ba107f\"\r\n   
     },\r\n    \"rs\": {\r\n      \"key\": \"GoldRushEvent\",\r\n      \"type\": \"bool\",\r\n     
     \"value\": true\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
-    \"2edd4f49-c90a-4786-9e25-e5f145add553\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"9f37f1f0-400e-4e3b-af4b-1a1821bcdebc\"\r\n    },\r\n    \"rs\": {\r\n     
     \"key\": \"id_001\",\r\n      \"type\": \"int\",\r\n      \"value\": 0\r\n   
-    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"7d558615-20af-4c6d-84de-35a5b2c598ea\"\r\n   
+    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"dfe57c67-33a6-4af7-8c37-ecdd041ce347\"\r\n   
     },\r\n    \"rs\": {\r\n      \"key\": \"id_002\",\r\n      \"type\": \"int\",\r\n     
     \"value\": 50\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
-    \"c6cb8e84-ae7b-47ed-9a10-3dbaadb52c7e\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"39819f57-a763-416b-ac5f-96be2bac6412\"\r\n    },\r\n    \"rs\": {\r\n     
     \"key\": \"id_003\",\r\n      \"type\": \"int\",\r\n      \"value\": 100\r\n   
-    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"44884fad-16d2-4c45-9621-8f06f4d55bbc\"\r\n   
+    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"00daba03-205e-4df9-be7e-25fd69d2b25b\"\r\n   
     },\r\n    \"rs\": {\r\n      \"key\": \"id_004\",\r\n      \"type\": \"int\",\r\n     
     \"value\": 200\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
-    \"460f8863-1765-4507-a377-1800d4d41586\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"a3e4cabc-6b8a-4344-ad40-2e97d4bdf7bc\"\r\n    },\r\n    \"rs\": {\r\n     
     \"key\": \"id_005\",\r\n      \"type\": \"int\",\r\n      \"value\": 500\r\n   
-    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"0b1d059f-e048-40e4-a08b-bf2146897473\"\r\n   
+    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"6d059a1f-9aaa-448e-8d47-1ac9090ab05a\"\r\n   
     },\r\n    \"rs\": {\r\n      \"key\": \"id_006\",\r\n      \"type\": \"int\",\r\n     
     \"value\": 1000\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
-    \"efbfdf07-055b-47be-9797-91c47c83ffff\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"444d6315-a36f-4488-bc47-62e774e40e95\"\r\n    },\r\n    \"rs\": {\r\n     
     \"key\": \"id_007\",\r\n      \"type\": \"int\",\r\n      \"value\": 1700\r\n   
-    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"34a7ae90-f923-4528-9511-a6a44caed999\"\r\n   
+    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"6807c865-f66e-43a5-b905-8e259a8e1bfb\"\r\n   
     },\r\n    \"rs\": {\r\n      \"key\": \"id_008\",\r\n      \"type\": \"int\",\r\n     
-    \"value\": 3000\r\n    }\r\n  }\r\n]"
+    \"value\": 2500\r\n    }\r\n  }\r\n]"
   _environments: "[\r\n  {\r\n    \"projectId\": \"ba3f1b3a-1ba7-41bb-a972-c17360434f1d\",\r\n   
     \"name\": \"production\",\r\n    \"id\": \"79a163b8-b5ff-4d17-b98d-aaca658fd171\",\r\n   
     \"isDefault\": true,\r\n    \"createdAt\": \"2024-02-22T13:44:40Z\",\r\n    \"updatedAt\":
